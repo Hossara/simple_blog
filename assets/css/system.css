@@ -1,0 +1,21 @@
+.container {
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.flex {
+    display: flex!important;
+}
+
+.justify-between {
+    justify-content: space-between!important;
+}
+
+.items-center {
+    align-items: center!important;
+}
+
+.m-0 {
+    margin: 0!important;
+}

@@ -1,4 +1,6 @@
-@import "https://fonts.googleapis.com/css2?family=Montserrat";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&display=swap";
+@import "./system.css";
+@import "./style.media.css";
 
 :root {
     /* Colors */
@@ -20,4 +22,63 @@
 
 * {
     font-family: var(--montserrat);
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+header  {
+    background-color: #02A28F;
+    padding: 14px 36px;
+    flex-shrink: 0;
+}
+
+header .menu {
+    display: none;
+    padding: 0;
+    font-size: 30px!important;
+}
+
+header .logo {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header a {
+    margin: 0 10px;
+    color: #FFFFFF;
+    font-family: var(--montserrat);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: normal;
+    position: relative;
+}
+
+header i {
+    color: #FFFFFF;
+    margin: 0 10px;
+    font-size: 17px;
+    flex-shrink: 0;
+
+}
+
+header a::after {
+    content: "";
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 1px;
+    bottom: -3px;
+    width: 0;
+    transition: 0.2s;
+}
+
+header a:hover::after {
+    width: 99%;
 }
