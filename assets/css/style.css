@@ -1,0 +1,23 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat";
+
+:root {
+    /* Colors */
+    --greenDark: #01473E;
+    --greenBlack: #005E53;
+    --greenMain: #007D6E;
+    --greenMainLight: #33978B;
+    --greenMainLighter: #66B1A8;
+    --greenLight: #99CBC5;
+    --grennlighter: #CCE5E2;
+    --greenWhite: #E6F3F1;
+
+    /* Fonts */
+    --montserrat: Montserrat, Arial, sans-serif;
+
+    --shadow1: 0px 10px 10px rgba(0, 0, 0, 0.10);
+    --sahdow2: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+* {
+    font-family: var(--montserrat);
+}
