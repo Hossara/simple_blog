@@ -33,6 +33,7 @@ header  {
     background-color: #02A28F;
     padding: 14px 36px;
     flex-shrink: 0;
+    box-shadow: var(--sahdow2);
 }
 
 header .menu {

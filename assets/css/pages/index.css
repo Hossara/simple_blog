@@ -1,0 +1,41 @@
+main {
+    margin-top: 50px!important;
+}
+
+main aside,
+main article {
+    padding: 0 12px 12px;
+}
+
+main aside {
+    width: 361px;
+}
+
+main article {
+    flex-grow: 1;
+}
+
+/* Content */
+article .section_slider {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 24px 22px;
+    aspect-ratio: 16/9;
+    margin: auto;
+}
+
+article .section_slider p:first-child {
+    margin-bottom: 1px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+article .section_slider h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+article .section_slider p:last-child {
+    font-size: 16px;
+    font-weight: 400;
+}

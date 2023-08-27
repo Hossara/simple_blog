@@ -1,3 +1,7 @@
+p, h1, h2, h3, h4, h5, h6, a, i {
+    margin: auto;
+}
+
 .container {
     margin: auto;
     max-width: 1440px;
@@ -12,10 +16,22 @@
     justify-content: space-between!important;
 }
 
+.justify-end {
+    justify-content: flex-end!important;
+}
+
 .items-center {
     align-items: center!important;
 }
 
 .m-0 {
     margin: 0!important;
+}
+
+.bold {
+    font-weight: 700!important;
+}
+
+.flex-column {
+    flex-direction: column!important;
 }
