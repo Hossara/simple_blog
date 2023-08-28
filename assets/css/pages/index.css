@@ -22,6 +22,7 @@ article .section_slider {
     padding: 24px 22px;
     aspect-ratio: 16/9;
     margin: auto;
+    box-shadow: var(--sahdow2);
 }
 
 article .section_slider p:first-child {
@@ -38,4 +39,93 @@ article .section_slider h3 {
 article .section_slider p:last-child {
     font-size: 16px;
     font-weight: 400;
+}
+
+/* article .section_card {
+    width: 744px
+    height: 888px
+} */
+article .section_card .title_section {
+    background-color: #02A28F;
+    border-radius: 10px;
+    box-shadow: var(--sahdow2);
+    margin-top: 24px;
+
+}
+
+article .section_card .title_section h2 {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 12px 22px;
+}
+
+article .section_card .title_section a {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    padding: 16px 26px;
+}
+aside .section_side_card .section_item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+aside h2 {
+    background-color: #02A28F;
+    border-radius: 10px;
+    box-shadow: var(--sahdow2);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 14px;
+}
+
+aside .section_side_card .section_item {
+    box-shadow: var(--shadow1);
+    padding: 14px;
+    border-radius: 10px;
+    height: 66px;
+}
+
+aside .section_side_card .section_item h4 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 8px;
+    direction: ltr;
+}
+
+aside .section_side_card .section_item p {
+    color: #616161;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    direction: ltr;
+}
+
+aside .section_side_card .image_article {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    height: 100%;
+    margin-right: 12px;
+    aspect-ratio: 16/9;
+}
+
+aside .section_side_categories {
+    margin-top: 24px;
+}
+
+aside .section_side_categories .label {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+aside .section_side_categories .labels {
+    margin-top: 4px;
 }
