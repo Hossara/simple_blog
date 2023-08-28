@@ -8,7 +8,9 @@ main article {
 }
 
 main aside {
-    width: 361px;
+    min-width: 361px;
+    width: 100%;
+    flex-grow: 0;
 }
 
 main article {
@@ -45,7 +47,7 @@ article .section_slider p:last-child {
     width: 744px
     height: 888px
 } */
-article .section_card .title_section {
+article .section_blog .title_section {
     background-color: #02A28F;
     border-radius: 10px;
     box-shadow: var(--sahdow2);
@@ -53,19 +55,77 @@ article .section_card .title_section {
 
 }
 
-article .section_card .title_section h2 {
+article .section_blog .title_section h2 {
     color: #FFFFFF;
     font-size: 23px;
     font-weight: 700;
     padding: 12px 22px;
 }
 
-article .section_card .title_section a {
+article .section_blog .title_section a {
     color: #FFF;
     font-size: 17px;
     font-weight: 500;
     text-decoration-line: underline;
     padding: 16px 26px;
+}
+
+article .section_blog .blog_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+article .section_blog .blog_card {
+    width: calc(50% - 24px);
+    flex: 1 1 auto;
+    box-shadow: var(--sahdow2);
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+article .section_blog .blog_card .banner_image {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+article .section_blog .blog_card .card_text {
+    padding: 14px 13px;
+}
+
+article .section_blog .blog_card .card_text a {
+    color: #02A28F;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+article .section_blog .blog_card .card_text h3 {
+    color: #000;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+article .section_blog .blog_card .card_text p.A {
+    color: #616161;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+article .section_blog .blog_card .card_text p.B {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+article .section_blog .blog_card .card_text p.C {
+    color: #616161;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 13px;
 }
 aside .section_side_card .section_item:not(:last-child) {
     margin-bottom: 14px;
