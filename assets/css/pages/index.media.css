@@ -1,0 +1,21 @@
+@media screen and (max-width: 1000px) {
+    aside {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    article .section_blog .blog_card {
+        width: 100%!important;
+    }
+
+    article .section_blog .title_section h2 {
+        font-size: 18px!important;
+        padding: 10px 16px!important;
+    }
+
+    article .section_blog .title_section a {
+        padding-right: 16px!important;
+        padding-left: 0!important;
+    }
+}
