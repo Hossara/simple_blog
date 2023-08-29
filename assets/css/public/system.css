@@ -20,6 +20,10 @@ p, h1, h2, h3, h4, h5, h6, a, i {
     justify-content: flex-end!important;
 }
 
+.justify-center {
+    justify-content: center!important;
+}
+
 .items-center {
     align-items: center!important;
 }

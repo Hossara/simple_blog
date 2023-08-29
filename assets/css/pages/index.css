@@ -1,3 +1,5 @@
+@import "index.media.css";
+
 main {
     margin-top: 50px!important;
 }
@@ -43,10 +45,6 @@ article .section_slider p:last-child {
     font-weight: 400;
 }
 
-/* article .section_card {
-    width: 744px
-    height: 888px
-} */
 article .section_blog .title_section {
     background-color: #02A28F;
     border-radius: 10px;
