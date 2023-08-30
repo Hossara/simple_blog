@@ -11,6 +11,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+<!-- Menu -->
+<section id="menu" class="flex flex-column">
+    <div class="exit"><i class="fa-solid fa-xmark" id="closeMenu"></i></div>
+    <div class="mobile_menu">
+        <div class="search flex items-center">
+            <input type="text" placeholder="Cari Artikel atau Kategori">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <nav class="flex flex-column">
+            <a href="">Beranda</a>
+            <a href="">Tutorial</a>
+            <a href="">Pemrograman</a>
+            <a href="">Teknologi</a>
+        </nav>
+    </div>
+    <div class="section_cards">
+            <h2>Paling Populer</h2>
+            <div class="card_items flex flex-column">
+                <div class="card_item flex">
+                    <div class="image_articles" ></div>
+                    <div class="flex flex-column">
+                        <h4>Ini Adalah Judul Artikel</h4>
+                        <p>22 Agustus 2022</p>
+                    </div>
+                </div>
+                <div class="card_item flex">
+                    <div class="image_articles"></div>
+                    <div class="flex flex-column">
+                        <h4>Ini Adalah Judul Artikel</h4>
+                        <p>22 Agustus 2022</p>
+                    </div>
+                </div>
+                <div class="card_item flex">
+                    <div class="image_articles"></div>
+                    <div class="item_content flex flex-column ">
+                        <h4>Ini Adalah Judul Artikel</h4>
+                        <p>22 Agustus 2022</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
 <!-- Navbar -->
 <header class="flex">
     <div class="container flex justify-between items-center">
@@ -23,7 +67,7 @@
             <i class="fa-solid fa-magnifying-glass search icon"></i>
         </nav>
 
-        <i class="fa-solid fa-bars menu icon"></i>
+        <i class="fa-solid fa-bars menu icon" id="menuIcon"></i>
     </div>
 </header>
 
@@ -136,5 +180,7 @@
 <footer class="flex items-center justify-center">
     <p>Copyright@KangTutor</p>
 </footer>
+
+<script src="./assets/JS/menu.js"></script>
 </body>
 </html>

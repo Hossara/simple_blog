@@ -94,3 +94,118 @@ footer {
     font-size: 16px;
     font-weight: 600;
 }
+
+section#menu {
+    z-index: -999;
+    position: fixed;
+    opacity: 0;
+    inset: 0;
+    background-color: #02A28F;
+    transition: 0.2s;
+    padding: 15px 25px;
+    overflow: auto;
+}
+
+section#menu.show {
+    z-index: 999;
+    opacity: 1;
+}
+
+section#menu .exit {
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 30px;
+}
+
+section#menu .mobile_menu {
+    max-width: 495px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section#menu .mobile_menu .search {
+    background-color: #D9D9D9;
+    margin-top: 70px;
+    height: 48px;
+    padding: 0 22px;
+    border-radius: 10px;
+}
+
+section#menu .mobile_menu .search input {
+    background-color: transparent!important;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+section#menu .mobile_menu .search input::placeholder {
+    color: #616161;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+section#menu .mobile_menu .search i {
+    color: #02A28F;
+}
+
+section#menu .mobile_menu nav {
+    margin-top: 40px;
+}
+
+section#menu .mobile_menu nav a {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+section#menu .mobile_menu nav a:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+section#menu .section_cards {
+    max-width: 495px;
+    width: 100%;
+    margin-top: 99px;
+}
+
+section#menu .section_cards h2 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+section#menu .section_cards .card_item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+section#menu .section_cards .card_item {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 18px;
+    height: 100px;
+    box-shadow: var(--sahdow2);
+}
+
+section#menu .section_cards .card_item .image_articles {
+    border-radius: 10px;
+    background: #D9D9D9;
+    height: 100%;
+    aspect-ratio: 16/9;
+    margin-right: 16px;
+}
+
+section#menu .section_cards .card_item h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+section#menu .section_cards .card_item p {
+    color: #616161;
+    font-size: 12px;
+    font-weight: 500;
+
+}
